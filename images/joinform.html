@@ -1,0 +1,148 @@
+<html>
+<head>
+
+
+</head>
+
+  <title>Join Form</title>
+  <a href="file:///C:/Users/tashe/Downloads/CODING%20CAGES/ecommerce%20site/index.html"></a>
+</head>
+
+<style>
+
+
+  body{
+  background:white;
+  font-family:cursive;
+  color: white (14, 13, 14, 0);
+  margin:0;
+  width: 600px;
+  position: center;
+}
+.popup .content{
+width:300px;
+height: 520px;
+z-index: 2;
+text-align: center;
+transform: translate(-50%,-150%) scale (0);
+padding: 20px;
+margin: 20% auto 0;
+border-radius: 20px;
+background: #1CFCFC;
+box-shadow: 38px 38px 56px none, 
+          -25px -25px 38px #1CFCFC;
+z-index: 1;
+margin-bottom: 30px
+}
+
+.popup .close-btn{
+position: auto;
+right: 20px;
+top: 20px;
+width: 25px;
+height: 40px;
+color: rgb(248, 11, 11);
+font-size: 25px;
+border-radius: 50px;
+padding: 2px 5px 7px 5px;
+background: none;
+box-shadow: 1px 1px 15px none, 
+           -1px -1px 15px #eacfea;
+}
+
+.popup.active.content{
+transition: all 300ms ease-in-out;
+transform: translate(-50%,-50%) scale(1);
+}
+
+h1{
+color: white;
+font-weight: 600;
+padding-top: 20px;   
+text-align: center;  
+font-size: 25px;
+padding-bottom: 10px;
+text-size-adjust: 5px;
+font-family: cursive;
+}
+
+a{
+font-weight: 600;
+color: white;
+}
+
+.input-field.validate{
+border: none;
+margin-bottom: 15px;
+color: #f3d3f3;
+background: #f7cdf7;
+padding: 20px;
+font-size:16px ;
+border-radius:10px ;
+box-shadow: inset 5px 5px #f3d3f3, 
+            inset -5px -5px #f19bf1;
+outline: none;
+}
+
+.second-button{
+color:blueviolet;
+font-size: 18px; 
+font-weight: 500;
+margin-top: 20px ;
+padding:10px 30px;
+border-radius: 40px;
+border: none;
+background: white;
+box-shadow: 8px 8px 15px #f3d3f3, -8px -8px 15px #f19bf1;
+transition: box-shadow 0.35s ease !important;
+ outline: none;
+}
+
+.second-button:active{
+background: linear-gradient(145deg,#1CFCFC, #1CFCFC;   
+box-shadow: 5px 5px 10px#f3d3f3, -5px -5px 10px #f19bf1;
+border: none;
+outline: none;
+}
+
+p{
+color:white ;
+padding: 20px;
+}
+
+a{text-decoration: none;}
+
+hr{
+  margin-top: 20px;
+  width: 90%;
+}
+
+
+</style>
+    
+</head>
+
+<body>
+<div class="popup"  id="popup-1">
+<div class="content">
+
+<div class="close-btn" oneclick="togglepopup()">x</div>
+<h1>Hire Me</h1> 
+<div class="input-field"><input placeholder="Email" required></div>
+<div class="input-field"><input placeholder="Password" required></div>
+<button class="second-button">Contact me</button>
+
+<p class="or">OR</p>
+<p class="Contact me on Twitter">Contact me on Twitter</p>
+<button type="button" class="twitter-btn">Twitter</button>
+<a href="https://twitter.com/home/" target="_blank" rel="noopener noreferrer">Twitter</a>                    
+              
+
+    
+</div>
+ </div>
+
+
+</div>
+</body>
+</html>
